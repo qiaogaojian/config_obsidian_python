@@ -10,14 +10,13 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8,<4"
 hexbytes = "^0.2.2"
 environs = "^9.5.0"
 PyMySQL = "^1.0.2"
 redis = "^4.1.4"
 pymongo = "^4.3.2"
 web3 = "5.13.1"
-bloxroute-cli = "^1.109.9"
 kafka-python = "^2.0.2"
 flask = "^2.2.2"
 matplotlib = "^3.6.0"
@@ -40,4 +39,11 @@ build-backend = "poetry.core.masonry.api"
 [[tool.poetry.source]]
 name = "aliyun"
 url = "http://mirrors.aliyun.com/pypi/simple"
-priority="default"
+priority = "default"
+
+
+[[tool.poetry.source]]
+name = "cuda117"
+url = "http://download.pytorch.org/whl/cu117"
+priority = "explicit"
+
