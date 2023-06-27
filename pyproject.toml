@@ -28,9 +28,6 @@ openai = "^0.26.5"
 revchatgpt = "^2.2.6"
 edgegpt = "^0.0.48"
 pypandoc = "^1.11"
-torch = "^2.0.1"
-torchvision = "^0.15.2"
-torchaudio = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 
@@ -42,4 +39,11 @@ build-backend = "poetry.core.masonry.api"
 [[tool.poetry.source]]
 name = "aliyun"
 url = "http://mirrors.aliyun.com/pypi/simple"
-priority="default"
+priority = "default"
+
+
+[[tool.poetry.source]]
+name = "cuda117"
+url = "http://download.pytorch.org/whl/cu117"
+priority = "explicit"
+
