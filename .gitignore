@@ -1,5 +1,7 @@
 *
 *.*
+!datasets
+!datasets/*
 !.gitignore
 !pyproject.toml
 !environment.yaml
