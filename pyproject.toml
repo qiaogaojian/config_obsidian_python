@@ -24,6 +24,7 @@ edgegpt = "^0.0.48"
 pypandoc = "^1.11"
 scikit-learn = "^1.2.2"
 sympy = "^1.12"
+pylnk3 = "^0.4.2"
 
 [tool.poetry.dev-dependencies]
 
