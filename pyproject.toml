@@ -12,15 +12,10 @@ packages = [
 python = ">=3.8,<3.10"
 pycore = {git = "ssh://git@github.com/qiaogaojian/pycore.git"}
 
-hexbytes = "^0.2.2"
-web3 = "5.13.1"
 matplotlib = "^3.6.0"
 seaborn = "^0.12.1"
 regex = "^2022.10.31"
 pyecharts = "^2.0.1"
-openai = "^0.26.5"
-revchatgpt = "^2.2.6"
-edgegpt = "^0.0.48"
 pypandoc = "^1.11"
 scikit-learn = "^1.2.2"
 sympy = "^1.12"
@@ -42,4 +37,3 @@ priority = "default"
 name = "cuda117"
 url = "http://download.pytorch.org/whl/cu117"
 priority = "explicit"
-
