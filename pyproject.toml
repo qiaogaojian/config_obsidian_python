@@ -5,7 +5,6 @@ description = ""
 authors = ["qiaogaojian <qiaogaojian@vip.qq.com>"]
 packages = [
     {include = "src", from="D:/git/Tweaks/tweaks_python"},    
-    {include = "common", from="D:/git/Tweaks/tweaks_python/src"}
 ]
 
 [tool.poetry.dependencies]
