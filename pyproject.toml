@@ -25,13 +25,6 @@ sympy = "^1.12"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-# 设置poetry包管理工具的自定义pypi镜像源配置
-[[tool.poetry.source]]
-name = "aliyun"
-url = "http://mirrors.aliyun.com/pypi/simple"
-priority = "default"
-
-
 [[tool.poetry.source]]
 name = "cuda117"
 url = "http://download.pytorch.org/whl/cu117"
