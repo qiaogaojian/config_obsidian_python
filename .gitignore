@@ -5,3 +5,4 @@
 !.gitignore
 !pyproject.toml
 !environment.yaml
+!requirements.txt
